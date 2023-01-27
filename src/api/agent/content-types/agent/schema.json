@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "agents",
+  "info": {
+    "singularName": "agent",
+    "pluralName": "agents",
+    "displayName": "Agents"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerText": {
+      "type": "string"
+    },
+    "bannerThumb": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
